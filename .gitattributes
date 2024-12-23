@@ -1,4 +1,4 @@
-*js linguist-detectable=true
+*.js linguist-detectable=true
 *.bootstrap linguist-detectable=true
 *.html linguist-detectable=true
 *.react-router linguist-detectable=true
