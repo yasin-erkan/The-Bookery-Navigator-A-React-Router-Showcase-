@@ -1,0 +1,9 @@
+*js linguist-detectable=true
+*.bootstrap linguist-detectable=true
+*.html linguist-detectable=true
+*.react-router linguist-detectable=true
+*.node.js linguist-detectable=true
+*.react-router linguist-detectable=true
+
+
+
