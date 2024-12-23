@@ -1,0 +1,136 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "image": "https://picsum.photos/900",
+      "year": 1977,
+      "page": 400,
+      "price": 300,
+      "description": "A book that vividly depicts the financial cycle experienced by middle-class people over a lifetime and explains the root causes of this cycle in a very simple language. A must-read during university years.",
+      "category": "novel"
+    },
+    {
+      "id": "2",
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen Covey",
+      "image": "https://picsum.photos/901",
+      "year": 1990,
+      "page": 320,
+      "price": 350,
+      "description": "A classic self-help book that explains the ways to achieve personal success. A must-read masterpiece.",
+      "category": "self-help"
+    },
+    {
+      "id": "3",
+      "title": "How to Win Friends and Influence People",
+      "author": "Dale Carnegie",
+      "image": "https://picsum.photos/902",
+      "year": 1936,
+      "page": 250,
+      "price": 280,
+      "description": "A popular book that explains ways to establish effective communication and has been translated into many languages.",
+      "category": "self-help"
+    },
+    {
+      "id": "4",
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "image": "https://picsum.photos/903",
+      "year": 1945,
+      "page": 150,
+      "price": 180,
+      "description": "A striking classic novel criticizing societal structure.",
+      "category": "novel"
+    },
+    {
+      "id": "5",
+      "title": "Capital in the Twenty-First Century",
+      "author": "Thomas Piketty",
+      "image": "https://picsum.photos/904",
+      "year": 2013,
+      "page": 550,
+      "price": 420,
+      "description": "A masterpiece that provides a detailed examination of the global economy.",
+      "category": "economics"
+    },
+    {
+      "id": "6",
+      "title": "Leaders Eat Last",
+      "author": "Simon Sinek",
+      "image": "https://picsum.photos/905",
+      "year": 2009,
+      "page": 240,
+      "price": 260,
+      "description": "An inspiring book that will enhance your leadership skills.",
+      "category": "self-help"
+    },
+    {
+      "id": "7",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "image": "https://picsum.photos/906",
+      "year": 2011,
+      "page": 480,
+      "price": 320,
+      "description": "A fascinating exploration of human history and our evolution as a species.",
+      "category": "history"
+    },
+    {
+      "id": "8",
+      "title": "1984",
+      "author": "George Orwell",
+      "image": "https://picsum.photos/907",
+      "year": 1949,
+      "page": 328,
+      "price": 290,
+      "description": "An unforgettable dystopia describing the effects of oppressive regimes on individuals.",
+      "category": "novel"
+    },
+    {
+      "id": "9",
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "image": "https://picsum.photos/908",
+      "year": 1937,
+      "page": 300,
+      "price": 250,
+      "description": "A book revealing the secrets of wealth and inspiring millions of people.",
+      "category": "self-help"
+    },
+    {
+      "id": "10",
+      "title": "Awaken the Giant Within",
+      "author": "Tony Robbins",
+      "image": "https://picsum.photos/909",
+      "year": 1991,
+      "page": 350,
+      "price": 340,
+      "description": "A book offering actionable strategies to increase personal and professional success.",
+      "category": "self-help"
+    },
+    {
+      "id": "11",
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "image": "https://picsum.photos/910",
+      "year": 1997,
+      "page": 230,
+      "price": 270,
+      "description": "A transformative guide to spiritual enlightenment and living in the present moment.",
+      "category": "spirituality"
+    },
+    {
+      "id": "12",
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "image": "https://picsum.photos/911",
+      "year": -500,
+      "page": 112,
+      "price": 150,
+      "description": "An ancient treatise on military strategy and tactics, with lessons applicable in modern life.",
+      "category": "strategy"
+    }
+  ]
+}
