@@ -1,10 +1,13 @@
 
-## The Bookery Navigator - A React Router Showcase
 
-Welcome to The Bookery Navigator, a dynamic web app designed to showcase an intuitive book discovery experience. With an elegant design and smooth transitions, it's built using React and React Router, offering seamless navigation and user-friendly interactions.
+### The Bookery Navigator - A React Router Showcase
+
+Welcome to **The Bookery Navigator**, a dynamic web app designed to showcase an intuitive book discovery experience. With an elegant design and smooth transitions, it's built using React and React Router, offering seamless navigation and user-friendly interactions.
 
 
-![The Bookery GIF](https://raw.githubusercontent.com/yasin-erkan/The-Bookery-Navigator-A-React-Router-Showcase-/main/The%20Bookery.gif)
+![The Bookery GIF](https://github.com/yasin-erkan/The-Bookery-Navigator-A-React-Router-Showcase-/raw/main/TheBookery-gif.gif)
+
+
 
 🚀 Features
 Book Search & Filters: Find your next favorite book with ease by searching and filtering the book list based on title and category.
