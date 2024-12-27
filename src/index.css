@@ -1,40 +1,38 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --primary-color: #646cff;
+  --hover-color: #535bf2;
+  --background-color: #f4f4f9;
+  --text-color: #333;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --hover-shadow: rgba(0, 0, 0, 0.15);
 }
 
 body {
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-}
-
-.navbar-brand {
-  font-size: 3.5rem;
-  font-weight: 700;
-  color: #f39c12;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  padding: 10px 20px;
-  transition: all 0.3s ease;
-}
-
-.navbar-brand:hover {
-  color: #e74c3c;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  background-color: var(--background-color);
+  margin: 0;
+  font-size: 16px;
 }
 
 a {
-  font-weight: 800;
+  font-weight: 500;
   text-decoration: none;
-  color: #646cff;
+  color: var(--primary-color);
 }
-
 a:hover {
-  color: #535bf2;
+  color: var(--hover-color);
+  text-decoration: underline;
 }
 
 .active {
-  text-shadow: 0 0 8px #646cff;
+  text-shadow: 0 0 8px var(--primary-color);
+}
+
+.image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
 }
 
 .page {
@@ -44,72 +42,118 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3.2rem !important;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px var(--card-shadow);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px var(--hover-shadow);
+}
+
+.card img {
+  max-height: 350px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .container {
-  background-color: #1e1e1e;
-  border-radius: 15px;
-  padding: 40px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  color: white;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.container h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  color: #f39c12;
-  text-align: center;
-  margin-bottom: 20px;
-  text-transform: uppercase;
+.details-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  color: #333;
 }
 
-.container p {
+.book-info {
+  margin-top: 2rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.info-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.info-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #448b46;
+  margin-bottom: 0.5rem;
+}
+
+.info-value {
   font-size: 1.2rem;
-  color: #ecf0f1;
+  font-weight: 500;
+  color: #e2dbdb;
+  line-height: 1.5;
+}
+
+.book-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #828634;
   text-align: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-.container img {
-  max-width: 80%;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-.container .gap-5 {
-  gap: 30px;
-}
-
-.container b {
-  font-weight: 600;
-}
-
-@media (min-width: 768px) {
-  .container h1 {
-    font-size: 3.5rem;
+@media (max-width: 768px) {
+  .book-title {
+    font-size: 1rem;
   }
-
-  .container img {
-    max-width: 70%;
-  }
-
-  .container p {
-    font-size: 1.4rem;
+  .info-container {
+    width: 100%;
   }
 }
 
-@media (min-width: 1024px) {
-  .navbar-brand {
-    font-size: 4rem;
-  }
+.not-found-image {
+  max-height: 400px;
+  aspect-ratio: 1;
+}
 
-  .container h1 {
-    font-size: 4rem;
+@media (min-width: 1100px) {
+  .not-found-image {
+    max-height: 300px;
+    aspect-ratio: 1;
   }
 }

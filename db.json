@@ -7,7 +7,7 @@
       "image": "https://picsum.photos/900",
       "year": 1977,
       "page": 400,
-      "price": 300,
+      "price": "10€",
       "description": "A book that vividly depicts the financial cycle experienced by middle-class people over a lifetime and explains the root causes of this cycle in a very simple language. A must-read during university years.",
       "category": "novel"
     },
@@ -18,7 +18,7 @@
       "image": "https://picsum.photos/901",
       "year": 1990,
       "page": 320,
-      "price": 350,
+      "price": "12€",
       "description": "A classic self-help book that explains the ways to achieve personal success. A must-read masterpiece.",
       "category": "self-help"
     },
@@ -29,7 +29,7 @@
       "image": "https://picsum.photos/902",
       "year": 1936,
       "page": 250,
-      "price": 280,
+      "price": "9€",
       "description": "A popular book that explains ways to establish effective communication and has been translated into many languages.",
       "category": "self-help"
     },
@@ -40,7 +40,7 @@
       "image": "https://picsum.photos/903",
       "year": 1945,
       "page": 150,
-      "price": 180,
+      "price": "6€",
       "description": "A striking classic novel criticizing societal structure.",
       "category": "novel"
     },
@@ -51,7 +51,7 @@
       "image": "https://picsum.photos/904",
       "year": 2013,
       "page": 550,
-      "price": 420,
+      "price": "14€",
       "description": "A masterpiece that provides a detailed examination of the global economy.",
       "category": "economics"
     },
@@ -62,7 +62,7 @@
       "image": "https://picsum.photos/905",
       "year": 2009,
       "page": 240,
-      "price": 260,
+      "price": "9€",
       "description": "An inspiring book that will enhance your leadership skills.",
       "category": "self-help"
     },
@@ -73,7 +73,7 @@
       "image": "https://picsum.photos/906",
       "year": 2011,
       "page": 480,
-      "price": 320,
+      "price": "11€",
       "description": "A fascinating exploration of human history and our evolution as a species.",
       "category": "history"
     },
@@ -84,7 +84,7 @@
       "image": "https://picsum.photos/907",
       "year": 1949,
       "page": 328,
-      "price": 290,
+      "price": "10€",
       "description": "An unforgettable dystopia describing the effects of oppressive regimes on individuals.",
       "category": "novel"
     },
@@ -95,7 +95,7 @@
       "image": "https://picsum.photos/908",
       "year": 1937,
       "page": 300,
-      "price": 250,
+      "price": "8€",
       "description": "A book revealing the secrets of wealth and inspiring millions of people.",
       "category": "self-help"
     },
@@ -106,7 +106,7 @@
       "image": "https://picsum.photos/909",
       "year": 1991,
       "page": 350,
-      "price": 340,
+      "price": "11€",
       "description": "A book offering actionable strategies to increase personal and professional success.",
       "category": "self-help"
     },
@@ -117,7 +117,7 @@
       "image": "https://picsum.photos/910",
       "year": 1997,
       "page": 230,
-      "price": 270,
+      "price": "9€",
       "description": "A transformative guide to spiritual enlightenment and living in the present moment.",
       "category": "spirituality"
     },
@@ -128,7 +128,7 @@
       "image": "https://picsum.photos/911",
       "year": -500,
       "page": 112,
-      "price": 150,
+      "price": "5€",
       "description": "An ancient treatise on military strategy and tactics, with lessons applicable in modern life.",
       "category": "strategy"
     }
